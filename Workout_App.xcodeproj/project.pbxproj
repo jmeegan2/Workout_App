@@ -51,8 +51,10 @@
 		111629C52A25124000C370C2 /* Workout_App */ = {
 			isa = PBXGroup;
 			children = (
+				111629D62A2512D500C370C2 /* Views */,
+				111629D52A2512C900C370C2 /* Models */,
+				111629D42A2512BB00C370C2 /* ViewModel */,
 				111629C62A25124000C370C2 /* Workout_AppApp.swift */,
-				111629C82A25124000C370C2 /* ContentView.swift */,
 				111629CA2A25124100C370C2 /* Assets.xcassets */,
 				111629CC2A25124100C370C2 /* Preview Content */,
 			);
@@ -65,6 +67,28 @@
 				111629CD2A25124100C370C2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		111629D42A2512BB00C370C2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		111629D52A2512C900C370C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		111629D62A2512D500C370C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				111629C82A25124000C370C2 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
