@@ -13,6 +13,8 @@
 		111629CE2A25124100C370C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111629CD2A25124100C370C2 /* Preview Assets.xcassets */; };
 		1131C40A2A26DCF200029E58 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1131C4092A26DCF200029E58 /* README.md */; };
 		1131C40D2A26E15400029E58 /* BottomBar-SwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1131C40C2A26E15400029E58 /* BottomBar-SwiftUI */; };
+		11CF3D7D2A27F2DC00FF1CF3 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF3D7C2A27F2DC00FF1CF3 /* NavigationBar.swift */; };
+		11CF3D7F2A27F35300FF1CF3 /* Devlog.MD in Resources */ = {isa = PBXBuildFile; fileRef = 11CF3D7E2A27F35300FF1CF3 /* Devlog.MD */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		111629CA2A25124100C370C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		111629CD2A25124100C370C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1131C4092A26DCF200029E58 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		11CF3D7C2A27F2DC00FF1CF3 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		11CF3D7E2A27F35300FF1CF3 /* Devlog.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Devlog.MD; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,7 @@
 		111629BA2A25124000C370C2 = {
 			isa = PBXGroup;
 			children = (
+				11CF3D7E2A27F35300FF1CF3 /* Devlog.MD */,
 				1131C4092A26DCF200029E58 /* README.md */,
 				111629C52A25124000C370C2 /* Workout_App */,
 				111629C42A25124000C370C2 /* Products */,
@@ -92,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				111629C82A25124000C370C2 /* ContentView.swift */,
+				11CF3D7C2A27F2DC00FF1CF3 /* NavigationBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -161,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1131C40A2A26DCF200029E58 /* README.md in Resources */,
+				11CF3D7F2A27F35300FF1CF3 /* Devlog.MD in Resources */,
 				111629CE2A25124100C370C2 /* Preview Assets.xcassets in Resources */,
 				111629CB2A25124100C370C2 /* Assets.xcassets in Resources */,
 			);
@@ -173,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11CF3D7D2A27F2DC00FF1CF3 /* NavigationBar.swift in Sources */,
 				111629C92A25124000C370C2 /* ContentView.swift in Sources */,
 				111629C72A25124000C370C2 /* Workout_AppApp.swift in Sources */,
 			);
