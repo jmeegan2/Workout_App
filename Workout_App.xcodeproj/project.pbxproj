@@ -11,6 +11,8 @@
 		111629C92A25124000C370C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111629C82A25124000C370C2 /* ContentView.swift */; };
 		111629CB2A25124100C370C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111629CA2A25124100C370C2 /* Assets.xcassets */; };
 		111629CE2A25124100C370C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111629CD2A25124100C370C2 /* Preview Assets.xcassets */; };
+		1131C40A2A26DCF200029E58 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1131C4092A26DCF200029E58 /* README.md */; };
+		1131C40D2A26E15400029E58 /* BottomBar-SwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1131C40C2A26E15400029E58 /* BottomBar-SwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,7 @@
 		111629C82A25124000C370C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		111629CA2A25124100C370C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		111629CD2A25124100C370C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1131C4092A26DCF200029E58 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1131C40D2A26E15400029E58 /* BottomBar-SwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +39,7 @@
 		111629BA2A25124000C370C2 = {
 			isa = PBXGroup;
 			children = (
+				1131C4092A26DCF200029E58 /* README.md */,
 				111629C52A25124000C370C2 /* Workout_App */,
 				111629C42A25124000C370C2 /* Products */,
 			);
@@ -107,6 +112,9 @@
 			dependencies = (
 			);
 			name = Workout_App;
+			packageProductDependencies = (
+				1131C40C2A26E15400029E58 /* BottomBar-SwiftUI */,
+			);
 			productName = Workout_App;
 			productReference = 111629C32A25124000C370C2 /* Workout_App.app */;
 			productType = "com.apple.product-type.application";
@@ -135,6 +143,9 @@
 				Base,
 			);
 			mainGroup = 111629BA2A25124000C370C2;
+			packageReferences = (
+				1131C40B2A26E15400029E58 /* XCRemoteSwiftPackageReference "bottombar-swiftui" */,
+			);
 			productRefGroup = 111629C42A25124000C370C2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -149,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1131C40A2A26DCF200029E58 /* README.md in Resources */,
 				111629CE2A25124100C370C2 /* Preview Assets.xcassets in Resources */,
 				111629CB2A25124100C370C2 /* Assets.xcassets in Resources */,
 			);
@@ -363,6 +375,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1131C40B2A26E15400029E58 /* XCRemoteSwiftPackageReference "bottombar-swiftui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/smartvipere75/bottombar-swiftui";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1131C40C2A26E15400029E58 /* BottomBar-SwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1131C40B2A26E15400029E58 /* XCRemoteSwiftPackageReference "bottombar-swiftui" */;
+			productName = "BottomBar-SwiftUI";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 111629BB2A25124000C370C2 /* Project object */;
 }
